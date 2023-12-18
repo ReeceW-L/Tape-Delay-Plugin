@@ -1,0 +1,31 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(lldb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/AU Lab/AU Lab.app/Contents/MacOS/AU Lab",
+            "args": [
+                "TestEffectAU.trak"
+            ],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/AU Lab",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "lldb",
+            "miDebuggerPath": "${workspaceFolder}/AU Lab/AU Lab.app/Contents/MacOS/AU Lab"
+        },
+        {
+            "name": "(lldb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "processId": "${command:pickProcess}",
+            "program": "${workspaceFolder}/AU Lab/AU Lab.app/Contents/MacOS/AU Lab",
+            "MIMode": "lldb"
+        }
+    ]
+}

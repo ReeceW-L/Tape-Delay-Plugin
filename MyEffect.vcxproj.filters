@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Library Files">
+      <UniqueIdentifier>{ace550ee-d6e5-4f59-9ca3-b35d40f6aeb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Code">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Library Files\APDI Framework">
+      <UniqueIdentifier>{acc3821f-c3eb-47f1-a7d5-b17bd1019137}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\Synthesis Toolkit %28STK%29">
+      <UniqueIdentifier>{4896dfbf-8007-4b65-a5b7-be08a745aa70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Library Files\Synthesis Toolkit %28STK%29\Objects">
+      <UniqueIdentifier>{3dc5b527-c254-48bc-addb-b414f6691696}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\EffectExtra.h">
+      <Filter>Source Code</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EffectPlugin.h">
+      <Filter>Source Code</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\ADSR.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Asymp.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BandedWG.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BeeThree.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BiQuad.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Blit.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BlitSaw.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BlitSquare.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BlowBotl.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BlowHole.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Bowed.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\BowTable.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Brass.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Chorus.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Clarinet.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Cubic.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Delay.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\DelayA.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\DelayL.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Drummer.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Echo.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Effect.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Envelope.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FileLoop.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FileRead.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FileWrite.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FileWvIn.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FileWvOut.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Filter.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Fir.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Flute.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FM.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FMVoices.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FormSwep.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\FreeVerb.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Function.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Generator.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Granulate.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Guitar.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\HevyMetl.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Iir.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Instrmnt.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\JCRev.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\JetTable.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\LentPitShift.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Mandolin.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Mesh2D.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Messager.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\MidiFileIn.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Modal.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\ModalBar.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Modulate.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Moog.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Noise.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\NRev.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\OnePole.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\OneZero.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\PercFlut.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Phonemes.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\PitShift.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Plucked.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\PoleZero.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\PRCRev.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\ReedTable.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Resonate.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Rhodey.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Sampler.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Saxofony.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Shakers.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Simple.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\SineWave.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\SingWave.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Sitar.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Skini.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Sphere.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\StifKarp.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Stk.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\TapDelay.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\TubeBell.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Twang.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\TwoPole.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\TwoZero.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Vector3D.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Voicer.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\VoicForm.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Whistle.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\Wurley.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\WvIn.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk\WvOut.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="include\stk.h">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29</Filter>
+    </ClInclude>
+    <ClInclude Include="include\apdi\Helpers.h">
+      <Filter>Library Files\APDI Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="include\apdi\Plugin.h">
+      <Filter>Library Files\APDI Framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\EffectPlugin.cpp">
+      <Filter>Source Code</Filter>
+    </ClCompile>
+    <ClCompile Include="include\include.cpp">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\stk\SKINI.msg">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </None>
+    <None Include="include\stk\SKINI.tbl">
+      <Filter>Library Files\Synthesis Toolkit %28STK%29\Objects</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyEffect.rc">
+      <Filter>Resources</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\background.png">
+      <Filter>Resources</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

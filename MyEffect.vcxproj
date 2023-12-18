@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\apdi\Helpers.h" />
+    <ClInclude Include="include\apdi\Plugin.h" />
+    <ClInclude Include="include\stk.h" />
+    <ClInclude Include="include\stk\ADSR.h" />
+    <ClInclude Include="include\stk\Asymp.h" />
+    <ClInclude Include="include\stk\BandedWG.h" />
+    <ClInclude Include="include\stk\BeeThree.h" />
+    <ClInclude Include="include\stk\BiQuad.h" />
+    <ClInclude Include="include\stk\Blit.h" />
+    <ClInclude Include="include\stk\BlitSaw.h" />
+    <ClInclude Include="include\stk\BlitSquare.h" />
+    <ClInclude Include="include\stk\BlowBotl.h" />
+    <ClInclude Include="include\stk\BlowHole.h" />
+    <ClInclude Include="include\stk\Bowed.h" />
+    <ClInclude Include="include\stk\BowTable.h" />
+    <ClInclude Include="include\stk\Brass.h" />
+    <ClInclude Include="include\stk\Chorus.h" />
+    <ClInclude Include="include\stk\Clarinet.h" />
+    <ClInclude Include="include\stk\Cubic.h" />
+    <ClInclude Include="include\stk\Delay.h" />
+    <ClInclude Include="include\stk\DelayA.h" />
+    <ClInclude Include="include\stk\DelayL.h" />
+    <ClInclude Include="include\stk\Drummer.h" />
+    <ClInclude Include="include\stk\Echo.h" />
+    <ClInclude Include="include\stk\Effect.h" />
+    <ClInclude Include="include\stk\Envelope.h" />
+    <ClInclude Include="include\stk\FileLoop.h" />
+    <ClInclude Include="include\stk\FileRead.h" />
+    <ClInclude Include="include\stk\FileWrite.h" />
+    <ClInclude Include="include\stk\FileWvIn.h" />
+    <ClInclude Include="include\stk\FileWvOut.h" />
+    <ClInclude Include="include\stk\Filter.h" />
+    <ClInclude Include="include\stk\Fir.h" />
+    <ClInclude Include="include\stk\Flute.h" />
+    <ClInclude Include="include\stk\FM.h" />
+    <ClInclude Include="include\stk\FMVoices.h" />
+    <ClInclude Include="include\stk\FormSwep.h" />
+    <ClInclude Include="include\stk\FreeVerb.h" />
+    <ClInclude Include="include\stk\Function.h" />
+    <ClInclude Include="include\stk\Generator.h" />
+    <ClInclude Include="include\stk\Granulate.h" />
+    <ClInclude Include="include\stk\Guitar.h" />
+    <ClInclude Include="include\stk\HevyMetl.h" />
+    <ClInclude Include="include\stk\Iir.h" />
+    <ClInclude Include="include\stk\Instrmnt.h" />
+    <ClInclude Include="include\stk\JCRev.h" />
+    <ClInclude Include="include\stk\JetTable.h" />
+    <ClInclude Include="include\stk\LentPitShift.h" />
+    <ClInclude Include="include\stk\Mandolin.h" />
+    <ClInclude Include="include\stk\Mesh2D.h" />
+    <ClInclude Include="include\stk\Messager.h" />
+    <ClInclude Include="include\stk\MidiFileIn.h" />
+    <ClInclude Include="include\stk\Modal.h" />
+    <ClInclude Include="include\stk\ModalBar.h" />
+    <ClInclude Include="include\stk\Modulate.h" />
+    <ClInclude Include="include\stk\Moog.h" />
+    <ClInclude Include="include\stk\Noise.h" />
+    <ClInclude Include="include\stk\NRev.h" />
+    <ClInclude Include="include\stk\OnePole.h" />
+    <ClInclude Include="include\stk\OneZero.h" />
+    <ClInclude Include="include\stk\PercFlut.h" />
+    <ClInclude Include="include\stk\Phonemes.h" />
+    <ClInclude Include="include\stk\PitShift.h" />
+    <ClInclude Include="include\stk\Plucked.h" />
+    <ClInclude Include="include\stk\PoleZero.h" />
+    <ClInclude Include="include\stk\PRCRev.h" />
+    <ClInclude Include="include\stk\ReedTable.h" />
+    <ClInclude Include="include\stk\Resonate.h" />
+    <ClInclude Include="include\stk\Rhodey.h" />
+    <ClInclude Include="include\stk\Sampler.h" />
+    <ClInclude Include="include\stk\Saxofony.h" />
+    <ClInclude Include="include\stk\Shakers.h" />
+    <ClInclude Include="include\stk\Simple.h" />
+    <ClInclude Include="include\stk\SineWave.h" />
+    <ClInclude Include="include\stk\SingWave.h" />
+    <ClInclude Include="include\stk\Sitar.h" />
+    <ClInclude Include="include\stk\Skini.h" />
+    <ClInclude Include="include\stk\Sphere.h" />
+    <ClInclude Include="include\stk\StifKarp.h" />
+    <ClInclude Include="include\stk\Stk.h" />
+    <ClInclude Include="include\stk\TapDelay.h" />
+    <ClInclude Include="include\stk\TubeBell.h" />
+    <ClInclude Include="include\stk\Twang.h" />
+    <ClInclude Include="include\stk\TwoPole.h" />
+    <ClInclude Include="include\stk\TwoZero.h" />
+    <ClInclude Include="include\stk\Vector3D.h" />
+    <ClInclude Include="include\stk\Voicer.h" />
+    <ClInclude Include="include\stk\VoicForm.h" />
+    <ClInclude Include="include\stk\Whistle.h" />
+    <ClInclude Include="include\stk\Wurley.h" />
+    <ClInclude Include="include\stk\WvIn.h" />
+    <ClInclude Include="include\stk\WvOut.h" />
+    <ClInclude Include="src\EffectExtra.h" />
+    <ClInclude Include="src\EffectPlugin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="include\include.cpp" />
+    <ClCompile Include="src\EffectPlugin.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="include\stk\SKINI.msg" />
+    <None Include="include\stk\SKINI.tbl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MyEffect.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\background.png" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{02468107-62ef-4515-8bf1-0b567999a319}</ProjectGuid>
+    <RootNamespace>MyEffect</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <LocalDebuggerCommand>..\Build\Plugin Host.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <LocalDebuggerCommand>..\Build\Plugin Host.exe</LocalDebuggerCommand>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\Build\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\$(TargetName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>$(ProjectDir)..\Build\</OutDir>
+    <IntDir>$(ProjectDir)..\Build\$(TargetName)\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=1;WIN32;_DEBUG;MYEFFECT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>include</AdditionalIncludeDirectories>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>$(ProjectDir)..\Build\$(TargetName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_ITERATOR_DEBUG_LEVEL=1;WIN32;NDEBUG;MYEFFECT_EXPORTS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableUAC>false</EnableUAC>
+      <ImportLibrary>$(SolutionDir)\..\..\Build\$(TargetName)\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

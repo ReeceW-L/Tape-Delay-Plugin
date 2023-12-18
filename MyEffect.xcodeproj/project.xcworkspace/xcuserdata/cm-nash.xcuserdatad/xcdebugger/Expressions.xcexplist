@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "MyEffect::InterpolatedRead(float):EffectPlugin.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "fMod * fSR">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MyEffect::process(float const**, float**, int):EffectPlugin.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "iBu">
+            </PersistentString>
+            <PersistentString
+               value = "iBufferWritePos - (fMod * fSR)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

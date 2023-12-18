@@ -1,0 +1,52 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "authorise",
+			"type": "shell",
+			"command": "osascript -e 'tell application \"Terminal\"\ndo script \"echo Success\"\nend tell'",
+			"problemMatcher": []
+		},
+		{
+			"type": "shell",
+			"label": "build",
+			"command": "/usr/bin/clang++",
+			"args": [
+				"-shared",
+				"-std=c++14",
+				"-stdlib=libc++",
+				"-g",
+				"${file}",
+				"${workspaceFolder}/include/stk.cpp",
+				"-I${workspaceFolder}/include",
+				"-o",
+				"${workspaceFolder}/build/Debug/${workspaceFolderBasename}.bundle/Contents/MacOS/${workspaceFolderBasename}",
+				"--debug"
+			],
+			"options": {
+				"cwd": "${workspaceFolder}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": "build"
+		},
+		{
+			"type": "shell",
+			"label": "deploy",
+			"command": "cp",
+			"args": [
+				"${workspaceFolder}/build/Debug/${workspaceFolderBasename}.bundle/Contents/MacOS/${workspaceFolderBasename}",
+				"~/Library/Audio/Plug-Ins/Components/${workspaceFolderBasename}.bundle"
+			],
+			"dependsOn": [
+				"build"
+			],
+			"problemMatcher": [],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
